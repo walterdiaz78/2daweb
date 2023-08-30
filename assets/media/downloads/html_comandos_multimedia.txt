@@ -1,0 +1,48 @@
+<b><!-- Comandos relacionados con multimedia --></b>
+
+<!-- 1. Imagen -->
+<img src="imagen.jpg" alt="Descripción de la imagen">
+
+
+<!-- 2. Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+<!-- 3. Picture -->
+<picture>
+    <source srcset="imagen.webp" type="image/webp">
+    <source srcset="imagen.jpg" type="image/jpeg">
+    <img src="imagen.jpg" alt="Descripción de la imagen">
+</picture>
+
+
+<!-- 4. Audio -->
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- 5. Video -->
+<video controls width="400">
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+
+<!-- Comandos relacionados con tablas -->
+
+
+<!-- 6. Tabla -->
+<table>
+    <tr>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+    </tr>
+    <tr>
+        <td>Celda 1,1</td>
+        <td>Celda 1,2</td>
+    </tr>
+</table>
+
+
+
+<td colspan="2" rowspan="3">Celda grande</td>
